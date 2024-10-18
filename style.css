@@ -1,0 +1,37 @@
+body{
+    background-color: F6EEE8;
+    font-family: "Tajawal", sans-serif;
+    height: 100vh;
+}
+
+.tasks-tabel{
+    background-color: #0f455b;
+/* height: 500px; */
+width: 60%;
+margin-top: 130px;
+}
+
+.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+     color: #e6f483e0;
+    line-height: 1;
+}
+
+.task{
+    display: flex;
+    background-color: #0f455b;
+    padding: 2px;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.2s;
+    color: #e6f483e0;
+}
+
+.task:hover{
+    box-shadow: 0px 3px 15px;
+}
+
+.done{
+    background-color: rgba(128, 128, 128, 0.571);
+}
